@@ -58,7 +58,7 @@ def apply_coupons(cart, coupons)
     total = 0.0
     cart = consolidate_cart(cart)
     cart = apply_coupons(cart, coupons)
-    binding.pry
+    #binding.pry
     cart = apply_clearance(cart)
 
     cart.keys.each do |item|
